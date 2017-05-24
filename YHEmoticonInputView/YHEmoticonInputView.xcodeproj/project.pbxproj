@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC8551691ED51ED6008EB4FE /* YHEmoticonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8551681ED51ED6008EB4FE /* YHEmoticonCell.swift */; };
+		DCA55FFB1ED27CFF00642B54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA55FFA1ED27CFF00642B54 /* AppDelegate.swift */; };
+		DCA55FFD1ED27CFF00642B54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA55FFC1ED27CFF00642B54 /* ViewController.swift */; };
+		DCA560001ED27CFF00642B54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA55FFE1ED27CFF00642B54 /* Main.storyboard */; };
+		DCA560021ED27CFF00642B54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA560011ED27CFF00642B54 /* Assets.xcassets */; };
+		DCA560051ED27CFF00642B54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA560031ED27CFF00642B54 /* LaunchScreen.storyboard */; };
+		DCA560101ED27CFF00642B54 /* YHEmoticonInputViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5600F1ED27CFF00642B54 /* YHEmoticonInputViewTests.swift */; };
+		DCA5601B1ED27CFF00642B54 /* YHEmoticonInputViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5601A1ED27CFF00642B54 /* YHEmoticonInputViewUITests.swift */; };
+		DCA560291ED27E1400642B54 /* YHEmoticonInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA560281ED27E1400642B54 /* YHEmoticonInputView.swift */; };
+		DCA5602C1ED28CA100642B54 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DCA5602B1ED28CA100642B54 /* Emoticons.bundle */; };
+		DCA5602E1ED28CD500642B54 /* YHEmoticonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5602D1ED28CD500642B54 /* YHEmoticonManager.swift */; };
+		DCA560301ED28CF300642B54 /* YHEmoticonPakage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5602F1ED28CF300642B54 /* YHEmoticonPakage.swift */; };
+		DCA560321ED28CFE00642B54 /* YHEmoticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA560311ED28CFE00642B54 /* YHEmoticon.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCA5600C1ED27CFF00642B54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCA55FEF1ED27CFF00642B54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA55FF61ED27CFF00642B54;
+			remoteInfo = YHEmoticonInputView;
+		};
+		DCA560171ED27CFF00642B54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCA55FEF1ED27CFF00642B54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA55FF61ED27CFF00642B54;
+			remoteInfo = YHEmoticonInputView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC8551681ED51ED6008EB4FE /* YHEmoticonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHEmoticonCell.swift; sourceTree = "<group>"; };
+		DCA55FF71ED27CFF00642B54 /* YHEmoticonInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHEmoticonInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA55FFA1ED27CFF00642B54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCA55FFC1ED27CFF00642B54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCA55FFF1ED27CFF00642B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCA560011ED27CFF00642B54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCA560041ED27CFF00642B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCA560061ED27CFF00642B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA5600B1ED27CFF00642B54 /* YHEmoticonInputViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHEmoticonInputViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA5600F1ED27CFF00642B54 /* YHEmoticonInputViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YHEmoticonInputViewTests.swift; sourceTree = "<group>"; };
+		DCA560111ED27CFF00642B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA560161ED27CFF00642B54 /* YHEmoticonInputViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHEmoticonInputViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA5601A1ED27CFF00642B54 /* YHEmoticonInputViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YHEmoticonInputViewUITests.swift; sourceTree = "<group>"; };
+		DCA5601C1ED27CFF00642B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA560281ED27E1400642B54 /* YHEmoticonInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHEmoticonInputView.swift; sourceTree = "<group>"; };
+		DCA5602B1ED28CA100642B54 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		DCA5602D1ED28CD500642B54 /* YHEmoticonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHEmoticonManager.swift; sourceTree = "<group>"; };
+		DCA5602F1ED28CF300642B54 /* YHEmoticonPakage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHEmoticonPakage.swift; sourceTree = "<group>"; };
+		DCA560311ED28CFE00642B54 /* YHEmoticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHEmoticon.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCA55FF41ED27CFF00642B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA560081ED27CFF00642B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA560131ED27CFF00642B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCA55FEE1ED27CFF00642B54 = {
+			isa = PBXGroup;
+			children = (
+				DCA55FF91ED27CFF00642B54 /* YHEmoticonInputView */,
+				DCA5600E1ED27CFF00642B54 /* YHEmoticonInputViewTests */,
+				DCA560191ED27CFF00642B54 /* YHEmoticonInputViewUITests */,
+				DCA55FF81ED27CFF00642B54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCA55FF81ED27CFF00642B54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCA55FF71ED27CFF00642B54 /* YHEmoticonInputView.app */,
+				DCA5600B1ED27CFF00642B54 /* YHEmoticonInputViewTests.xctest */,
+				DCA560161ED27CFF00642B54 /* YHEmoticonInputViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCA55FF91ED27CFF00642B54 /* YHEmoticonInputView */ = {
+			isa = PBXGroup;
+			children = (
+				DCA5602B1ED28CA100642B54 /* Emoticons.bundle */,
+				DCA55FFA1ED27CFF00642B54 /* AppDelegate.swift */,
+				DCA55FFC1ED27CFF00642B54 /* ViewController.swift */,
+				DCA560281ED27E1400642B54 /* YHEmoticonInputView.swift */,
+				DCA5602D1ED28CD500642B54 /* YHEmoticonManager.swift */,
+				DCA5602F1ED28CF300642B54 /* YHEmoticonPakage.swift */,
+				DCA560311ED28CFE00642B54 /* YHEmoticon.swift */,
+				DC8551681ED51ED6008EB4FE /* YHEmoticonCell.swift */,
+				DCA55FFE1ED27CFF00642B54 /* Main.storyboard */,
+				DCA560011ED27CFF00642B54 /* Assets.xcassets */,
+				DCA560031ED27CFF00642B54 /* LaunchScreen.storyboard */,
+				DCA560061ED27CFF00642B54 /* Info.plist */,
+			);
+			path = YHEmoticonInputView;
+			sourceTree = "<group>";
+		};
+		DCA5600E1ED27CFF00642B54 /* YHEmoticonInputViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCA5600F1ED27CFF00642B54 /* YHEmoticonInputViewTests.swift */,
+				DCA560111ED27CFF00642B54 /* Info.plist */,
+			);
+			path = YHEmoticonInputViewTests;
+			sourceTree = "<group>";
+		};
+		DCA560191ED27CFF00642B54 /* YHEmoticonInputViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCA5601A1ED27CFF00642B54 /* YHEmoticonInputViewUITests.swift */,
+				DCA5601C1ED27CFF00642B54 /* Info.plist */,
+			);
+			path = YHEmoticonInputViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCA55FF61ED27CFF00642B54 /* YHEmoticonInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA5601F1ED27CFF00642B54 /* Build configuration list for PBXNativeTarget "YHEmoticonInputView" */;
+			buildPhases = (
+				DCA55FF31ED27CFF00642B54 /* Sources */,
+				DCA55FF41ED27CFF00642B54 /* Frameworks */,
+				DCA55FF51ED27CFF00642B54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHEmoticonInputView;
+			productName = YHEmoticonInputView;
+			productReference = DCA55FF71ED27CFF00642B54 /* YHEmoticonInputView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCA5600A1ED27CFF00642B54 /* YHEmoticonInputViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA560221ED27CFF00642B54 /* Build configuration list for PBXNativeTarget "YHEmoticonInputViewTests" */;
+			buildPhases = (
+				DCA560071ED27CFF00642B54 /* Sources */,
+				DCA560081ED27CFF00642B54 /* Frameworks */,
+				DCA560091ED27CFF00642B54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA5600D1ED27CFF00642B54 /* PBXTargetDependency */,
+			);
+			name = YHEmoticonInputViewTests;
+			productName = YHEmoticonInputViewTests;
+			productReference = DCA5600B1ED27CFF00642B54 /* YHEmoticonInputViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCA560151ED27CFF00642B54 /* YHEmoticonInputViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA560251ED27CFF00642B54 /* Build configuration list for PBXNativeTarget "YHEmoticonInputViewUITests" */;
+			buildPhases = (
+				DCA560121ED27CFF00642B54 /* Sources */,
+				DCA560131ED27CFF00642B54 /* Frameworks */,
+				DCA560141ED27CFF00642B54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA560181ED27CFF00642B54 /* PBXTargetDependency */,
+			);
+			name = YHEmoticonInputViewUITests;
+			productName = YHEmoticonInputViewUITests;
+			productReference = DCA560161ED27CFF00642B54 /* YHEmoticonInputViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCA55FEF1ED27CFF00642B54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yanghao;
+				TargetAttributes = {
+					DCA55FF61ED27CFF00642B54 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = G82ZSSB474;
+						ProvisioningStyle = Automatic;
+					};
+					DCA5600A1ED27CFF00642B54 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCA55FF61ED27CFF00642B54;
+					};
+					DCA560151ED27CFF00642B54 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCA55FF61ED27CFF00642B54;
+					};
+				};
+			};
+			buildConfigurationList = DCA55FF21ED27CFF00642B54 /* Build configuration list for PBXProject "YHEmoticonInputView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCA55FEE1ED27CFF00642B54;
+			productRefGroup = DCA55FF81ED27CFF00642B54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCA55FF61ED27CFF00642B54 /* YHEmoticonInputView */,
+				DCA5600A1ED27CFF00642B54 /* YHEmoticonInputViewTests */,
+				DCA560151ED27CFF00642B54 /* YHEmoticonInputViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCA55FF51ED27CFF00642B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA560051ED27CFF00642B54 /* LaunchScreen.storyboard in Resources */,
+				DCA5602C1ED28CA100642B54 /* Emoticons.bundle in Resources */,
+				DCA560021ED27CFF00642B54 /* Assets.xcassets in Resources */,
+				DCA560001ED27CFF00642B54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA560091ED27CFF00642B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA560141ED27CFF00642B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCA55FF31ED27CFF00642B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA560291ED27E1400642B54 /* YHEmoticonInputView.swift in Sources */,
+				DCA5602E1ED28CD500642B54 /* YHEmoticonManager.swift in Sources */,
+				DCA55FFD1ED27CFF00642B54 /* ViewController.swift in Sources */,
+				DCA55FFB1ED27CFF00642B54 /* AppDelegate.swift in Sources */,
+				DCA560321ED28CFE00642B54 /* YHEmoticon.swift in Sources */,
+				DCA560301ED28CF300642B54 /* YHEmoticonPakage.swift in Sources */,
+				DC8551691ED51ED6008EB4FE /* YHEmoticonCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA560071ED27CFF00642B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA560101ED27CFF00642B54 /* YHEmoticonInputViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA560121ED27CFF00642B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA5601B1ED27CFF00642B54 /* YHEmoticonInputViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCA5600D1ED27CFF00642B54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA55FF61ED27CFF00642B54 /* YHEmoticonInputView */;
+			targetProxy = DCA5600C1ED27CFF00642B54 /* PBXContainerItemProxy */;
+		};
+		DCA560181ED27CFF00642B54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA55FF61ED27CFF00642B54 /* YHEmoticonInputView */;
+			targetProxy = DCA560171ED27CFF00642B54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCA55FFE1ED27CFF00642B54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA55FFF1ED27CFF00642B54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCA560031ED27CFF00642B54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA560041ED27CFF00642B54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCA5601D1ED27CFF00642B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCA5601E1ED27CFF00642B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCA560201ED27CFF00642B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G82ZSSB474;
+				INFOPLIST_FILE = YHEmoticonInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.yanghaopro.YHEmoticonInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DCA560211ED27CFF00642B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G82ZSSB474;
+				INFOPLIST_FILE = YHEmoticonInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.yanghaopro.YHEmoticonInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DCA560231ED27CFF00642B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YHEmoticonInputViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.yanghaopro.YHEmoticonInputViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHEmoticonInputView.app/YHEmoticonInputView";
+			};
+			name = Debug;
+		};
+		DCA560241ED27CFF00642B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YHEmoticonInputViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.yanghaopro.YHEmoticonInputViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHEmoticonInputView.app/YHEmoticonInputView";
+			};
+			name = Release;
+		};
+		DCA560261ED27CFF00642B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = YHEmoticonInputViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.yanghaopro.YHEmoticonInputViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YHEmoticonInputView;
+			};
+			name = Debug;
+		};
+		DCA560271ED27CFF00642B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = YHEmoticonInputViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.yanghaopro.YHEmoticonInputViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YHEmoticonInputView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCA55FF21ED27CFF00642B54 /* Build configuration list for PBXProject "YHEmoticonInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA5601D1ED27CFF00642B54 /* Debug */,
+				DCA5601E1ED27CFF00642B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA5601F1ED27CFF00642B54 /* Build configuration list for PBXNativeTarget "YHEmoticonInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA560201ED27CFF00642B54 /* Debug */,
+				DCA560211ED27CFF00642B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA560221ED27CFF00642B54 /* Build configuration list for PBXNativeTarget "YHEmoticonInputViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA560231ED27CFF00642B54 /* Debug */,
+				DCA560241ED27CFF00642B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA560251ED27CFF00642B54 /* Build configuration list for PBXNativeTarget "YHEmoticonInputViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA560261ED27CFF00642B54 /* Debug */,
+				DCA560271ED27CFF00642B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCA55FEF1ED27CFF00642B54 /* Project object */;
+}
